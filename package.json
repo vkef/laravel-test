@@ -12,7 +12,7 @@
     "devDependencies": {
         "axios": "^0.19",
         "bootstrap": "^4.0.0",
-        "cross-env": "^7.0",
+        "cross-env": "^7.0.2",
         "jquery": "^3.2",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
@@ -21,6 +21,29 @@
         "sass": "^1.20.1",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
-    }
+        "vue-template-compiler": "^2.6.10",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "webpack": "^5.4.0"
+    },
+    "name": "eshop",
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\"></a></p>",
+    "version": "1.0.0",
+    "main": "webpack.mix.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vkef/project-eshop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vkef/project-eshop/issues"
+    },
+    "homepage": "https://github.com/vkef/project-eshop#readme"
 }
